@@ -14,7 +14,7 @@ while flag:
         producto["Costo"]=int(input("Ingrese el costo : "))
         producto["Cantidad"]=int(input("Ingrese la cantida : "))
     except ValueError:
-        print("Algo salio mal intentalo otra vez")
+        print("solo se aceptan numeros")
     else:
         producto["Nombre"]= producto
 
