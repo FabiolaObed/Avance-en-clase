@@ -29,4 +29,15 @@ def die (x,y):
 
 print(die(a,b))
 
+
+
+
+productos = [1,2,3,4,5,6,7,8]
+contador=[]
+while True:
+    print(productos[contador])
+    if 7 == contador:
+        break
+    else:
+        contador += 1
     

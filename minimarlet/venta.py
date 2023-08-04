@@ -3,3 +3,4 @@ class Venta:
         pass
     def vender(self):
         pass
+    
